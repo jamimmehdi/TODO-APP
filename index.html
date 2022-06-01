@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <div class="title-wrapper">
+                <h1>My Tasks</h1>
+                <p id="task-count">2 of 7 tasks done</p>
+                <div class="line"></div>
+            </div>
+            <div class="input-add-container">
+                <div class="input-wrapper">
+                    <input type="text" id="input" placeholder="add your task...">
+                </div>
+                <button class ="add-btn" type="button" id="add">+</button>
+            </div>
+            
+            <div class="input-buttons">
+                <button type="button" id="removeDone">Remove Completed</button>
+            </div>
+        </div>
+        <div class="lists-wrapper">
+            <ul id="list">
+                <!-- Demo elements -->
+                <li class="myCheck fadein">
+                    <div class="list-text">
+                        <input type="checkbox" id="check">
+                        <label>Go to gym</label>
+                        <p>Mon, Apr 30</p>
+                    </div>
+                </li>
+                <li class="myCheck fadein">
+                    <div class="list-text">
+                        <input type="checkbox" id="check" checked>
+                        <label>Record youtube video</label>
+                        <p>Mon, Apr 30</p>
+                    </div>
+                </li>
+                <li class="myCheck fadein">
+                    <div class="list-text">
+                        <input type="checkbox" id="check" checked>
+                        <label>Learn Javascript</label>
+                        <p>Mon, Apr 30</p>
+                    </div>
+                </li>
+                <li class="myCheck fadein">
+                    <div class="list-text">
+                        <input type="checkbox" id="check" checked>
+                        <label>Learn DSA</label>
+                        <p>Mon, Apr 30</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
